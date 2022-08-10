@@ -1,5 +1,6 @@
 //Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings
 
+
 //write your code here
 
 
@@ -12,3 +13,19 @@
 
 
 //write your code here
+
+const book = [{title: 'Harry Potter', author:'J.K Rowling',alreadyRead: true},
+
+{title: 'Lord of the Rings', author:'G.R.R Tolkin',alreadyRead: true},
+
+{title: 'life of pi', author:'no clue',alreadyRead: false},
+]
+
+for (const item of book){
+    console.log(`${item.title} by ${item.author}`);
+    if (item.alreadyRead){
+        console.log(`You already read "${item.title}" by ${item.author}.`);
+    }else {
+        console.log(`You need to read it  "${item.title}" by ${item.author}`);
+    }
+}
