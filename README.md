@@ -9,7 +9,7 @@
 - Ingredients:
 - cinnamon
 - cumin
-- cocoa
+- cumin
 
 
 #### The Reading List

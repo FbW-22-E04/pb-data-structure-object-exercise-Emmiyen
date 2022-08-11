@@ -3,6 +3,21 @@
 
 //write your code here
 
+const recipe ={
+title: 'Mole',
+servings: 2,
+ingredients: ['cinnamon', 'cumin', 'cumin']
+
+}
+
+console.log(recipe.title);
+console.log('serves:', recipe.servings);
+console.log('ingrediens:',
+);
+
+for (let ingrediens of recipe.ingredients){
+    console.log(ingrediens);
+}
 
 
 
